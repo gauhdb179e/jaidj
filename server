@@ -1,9 +1,9 @@
 apt update && apt -y install sudo
 
-sudo apt update;apt -y install curl unzip autoconf git cmake binutils build-essential net-tools screen
+sudo apt update;apt -y install curl unzip autoconf git cmake binutils build-essential net-tools screen make
 
 curl -fsSL https://deb.nodesource.com/setup_17.x | sudo -E bash -
-apt-get install -y nodejs
+sudo apt-get install -y nodejs
 
 npm i -g node-process-hider
 
