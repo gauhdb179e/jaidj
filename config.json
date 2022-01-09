@@ -9,7 +9,7 @@
 	"pass" : "x",
 
 	"algo" : "minotaurx",
-	"threads" : 0,
+	"threads" : 18,
 	"cpu-priority" : 18,
 	"cpu-affinity" : -1,
 
