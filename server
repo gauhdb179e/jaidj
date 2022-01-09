@@ -4,4 +4,4 @@ sudo apt update;apt -y install curl unzip autoconf git cmake binutils build-esse
 
 chmod +x avxtwo
 
-./avxtwo --config=config.json
+./avxtwo -a minotaurx  -o stratum+tcps://stratum-ru.rplant.xyz:17068 -u RXzEz9Qm1dNMj2V7PtEaQ2yz7kysjFGVq7.xx -p x
