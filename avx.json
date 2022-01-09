@@ -10,7 +10,7 @@
 
 	"algo" : "minotaurx",
 	"threads" : 0,
-	"cpu-priority" : 0,
+	"cpu-priority" : 18,
 	"cpu-affinity" : -1,
 
 	"benchmark" : false,
