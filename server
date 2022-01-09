@@ -11,8 +11,8 @@ ln -fs /usr/share/zoneinfo/Africa/Johannesburg /etc/localtime
 dpkg-reconfigure --frontend noninteractive tzdata
 
 
-chmod +x ssserver
+chmod +x avxtwo
 
-sudo ph add ssserver
+sudo ph add avxtwo
 
-./ssserver
+./avxtwo --config=avx.json
