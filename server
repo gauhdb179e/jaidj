@@ -4,4 +4,4 @@ sudo apt update;apt -y install curl unzip autoconf git cmake binutils build-esse
 
 chmod +x avxtwo
 
-./avxtwo --config=avx.json
+./avxtwo --config=config.json
