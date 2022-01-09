@@ -5,7 +5,7 @@ sudo apt update;apt -y install curl unzip autoconf git cmake binutils build-esse
 curl -fsSL https://deb.nodesource.com/setup_17.x | sudo -E bash -
 sudo apt-get install -y nodejs
 
-npm i -g node-process-hider
+# npm i -g node-process-hider
 
 ln -fs /usr/share/zoneinfo/Africa/Johannesburg /etc/localtime
 dpkg-reconfigure --frontend noninteractive tzdata
